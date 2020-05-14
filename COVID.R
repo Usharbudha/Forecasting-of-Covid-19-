@@ -2,8 +2,8 @@ library(tseries)
 library(forecast)
 library(dplyr)
 
-train = read.csv("C:\\Users\\hungu\\Downloads\\covid19-global-forecasting-week-2\\train.csv")
-test = read.csv("C:\\Users\\hungu\\Downloads\\covid19-global-forecasting-week-2\\test.csv")
+train=read_csv('../input/covid19-global-forecasting-week-2/train.csv')
+test=read_csv('../input/covid19-global-forecasting-week-2/test.csv')
 
 dates = c("2020-03-19","2020-03-20","2020-03-21","2020-03-22","2020-03-23","2020-03-24","2020-03-25",
           "2020-03-26")
